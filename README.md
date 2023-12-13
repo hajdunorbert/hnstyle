@@ -2,7 +2,6 @@
 
 ### HTML Structure:
 
-```html
 &lt;div class="card"&gt;
     &lt;div class="card-image"&gt;
         &lt;img src="..."&gt;
