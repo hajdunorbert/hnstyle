@@ -57,9 +57,9 @@
 
 #### Image Size Classes:
 
-- .card-si: Sets the image height to 200px.
-- .card-mi: Sets the image height to 300px.
-- .card-li: Sets the image height to 400px.
+- `.card-si`: Sets the image height to 200px.
+- `.card-mi`: Sets the image height to 300px.
+- `.card-li`: Sets the image height to 400px.
 
 ### Usage Tips:
 
