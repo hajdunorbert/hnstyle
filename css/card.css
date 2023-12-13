@@ -1,24 +1,32 @@
 .card {
-    width: 300px;
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
+    box-shadow: 0 4px 8px #000;
+    border: 1px solid black;
 }
 
-.card-header {
-    padding: 16px;
-    background-color: #3498db;
-    color: #fff;
-    text-align: center;
+.card-image img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-title {
+    padding: 10px;
+    font-weight: 600;
 }
 
 .card-body {
-    padding: 16px;
+    padding: 10px;
 }
 
 .card-footer {
-    padding: 16px;
-    background-color: #f2f2f2;
-    text-align: center;
+    padding: 10px;
+}
+
+.card-ns {
+    box-shadow: none;
+}
+
+.card-nb {
+    border: 0;
 }

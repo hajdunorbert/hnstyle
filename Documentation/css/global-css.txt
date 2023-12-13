@@ -1,47 +1,46 @@
-!-- CSS
+<!-- CSS Documentation -->
 
-//Global
+<!-- Global -->
 
-//Display
+<!-- Display -->
+.d-flex     = display: flex
+.d-grid     = display: grid
 
-d-flex		= display: flex
-d-grid		= display: grid
-    
-//Display Options
+<!-- Display Options -->
+.jcc        = justify-content: center
+.jcs        = justify-content: start
+.jce        = justify-content: end
+.jcsb       = justify-content: space-between
+.jcse       = justify-content: space-evenly
 
-jcc 		= justify-content: center
-jcs			= justify-content: start
-jce			= justify-content: end
-jcsb		= justify-content: space-between
-jcse		= justify-content: space-evenly;
+<!-- Margin -->
+.m-1 to .m-5  = Margin to all sides: 10px to 50px
+.mt-1 to .mt-5 = Margin top: 10px to 50px
+.mb-1 to .mb-5 = Margin bottom: 10px to 50px
+.mr-1 to .mr-5 = Margin right: 10px to 50px
+.ml-1 to .ml-5 = Margin left: 10px to 50px
 
-//Margin
+<!-- Padding -->
+.p-1 to .p-5  = Padding to all sides: 10px to 50px
+.pt-1 to .pt-5 = Padding top: 10px to 50px
+.pb-1 to .pb-5 = Padding bottom: 10px to 50px
+.pr-1 to .pr-5 = Padding right: 10px to 50px
+.pl-1 to .pl-5 = Padding left: 10px to 50px
 
-m 	- Margin to all sides 	= 1-5 (10px - 50px)
-mt 	- Margin top 			= 1-5 (10px - 50px)
-mb 	- Margin bottom 		= 1-5 (10px - 50px)
-mr 	- Margin right 			= 1-5 (10px - 50px)
-ml 	- Margin left 			= 1-5 (10px - 50px)
-
-//Padding
-
-p 	- Padding to all sides 	= 1-5 (10px - 50px)
-pt 	- Padding top 			= 1-5 (10px - 50px)
-pb 	- Padding bottom 		= 1-5 (10px - 50px)
-pr 	- Padding right 		= 1-5 (10px - 50px)
-pl 	- Padding left 			= 1-5 (10px - 50px)
-
-//Lists
-
+<!-- Lists -->
 .lsn    = list-style: none
 .lsc    = list-style: circle
 .lsd    = list-style: disc
-.lss    = list-style: square;
+.lss    = list-style: square
 
-//Links
+<!-- Links -->
+.tdn    = text-decoration: none
+.tdd    = text-decoration: dotted
+.tdlt   = text-decoration: line-through
+.tdol   = text-decoration: overline
+.tdul   = text-decoration: underline
 
-tdn    = text-decoration: none
-tdd    = text-decoration: dotted
-tdlt   = text-decoration: line-through
-tdol   = text-decoration: overline
-tdul   = text-decoration: underline
+<!-- Width -->
+.w-5 to .w-100 = Width: 5% to 100%, incrementing by 5%
+
+<!-- Global END -->
