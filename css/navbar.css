@@ -1,0 +1,45 @@
+/* Navigation Bar */
+nav {
+    align-items: center;
+    padding: 10px;
+}
+
+.nav-logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.nav-items {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.nav-item a {
+    text-decoration: none;
+}
+
+/* Navigation Bar END */
+
+/* Navigation Bar Background Colors */
+
+.nav-dark {
+    background-color: #333;
+}
+
+.nav-light {
+    background-color: #e9e9e9;
+}
+
+.nav-blue {
+    background-color: #5a75df;
+}
+
+.nav-green {
+    background-color: #7ac74f;
+}
+
+/* Navigation Bar Background Colors END */

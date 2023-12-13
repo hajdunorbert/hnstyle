@@ -1,0 +1,94 @@
+/* Global */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Display */
+.d-flex {
+    display: flex;
+}
+
+.d-grid {
+    display: grid;
+}
+
+
+/* Display Options */
+
+.jcc {
+    justify-content: center;  
+}
+.jcs {
+    justify-content: start;
+}
+
+.jce {
+    justify-content: end;
+}
+
+.jcsb {
+    justify-content: space-between;
+}
+
+.jcse{
+    justify-content: space-evenly;
+}
+
+
+/* Display Options END */
+
+
+/* Display END */
+
+
+
+/* Lists */
+
+.lsn {
+    list-style: none;
+}
+
+.lsc {
+    list-style: circle;
+}
+
+.lsd {
+    list-style: disc;
+}
+
+.lss {
+    list-style: square;
+}
+
+/* Lists END */
+
+
+
+/* Links */
+
+.tdn {
+    text-decoration: none; 
+}
+
+.tdd {
+    text-decoration: dotted;
+}
+
+.tdlt {
+    text-decoration: line-through;
+}
+
+.tdol {
+    text-decoration: overline;
+}
+
+.tdul {
+    text-decoration: underline;
+}
+
+/* Links END */
+
+
+/* Global END */

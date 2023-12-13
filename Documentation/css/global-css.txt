@@ -1,0 +1,47 @@
+!-- CSS
+
+//Global
+
+//Display
+
+d-flex		= display: flex
+d-grid		= display: grid
+    
+//Display Options
+
+jcc 		= justify-content: center
+jcs			= justify-content: start
+jce			= justify-content: end
+jcsb		= justify-content: space-between
+jcse		= justify-content: space-evenly;
+
+//Margin
+
+m 	- Margin to all sides 	= 1-5 (10px - 50px)
+mt 	- Margin top 			= 1-5 (10px - 50px)
+mb 	- Margin bottom 		= 1-5 (10px - 50px)
+mr 	- Margin right 			= 1-5 (10px - 50px)
+ml 	- Margin left 			= 1-5 (10px - 50px)
+
+//Padding
+
+p 	- Padding to all sides 	= 1-5 (10px - 50px)
+pt 	- Padding top 			= 1-5 (10px - 50px)
+pb 	- Padding bottom 		= 1-5 (10px - 50px)
+pr 	- Padding right 		= 1-5 (10px - 50px)
+pl 	- Padding left 			= 1-5 (10px - 50px)
+
+//Lists
+
+.lsn    = list-style: none
+.lsc    = list-style: circle
+.lsd    = list-style: disc
+.lss    = list-style: square;
+
+//Links
+
+tdn    = text-decoration: none
+tdd    = text-decoration: dotted
+tdlt   = text-decoration: line-through
+tdol   = text-decoration: overline
+tdul   = text-decoration: underline

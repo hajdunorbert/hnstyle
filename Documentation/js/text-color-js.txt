@@ -1,0 +1,5 @@
+!-- JavaScript
+
+//Color
+
+tc-#hexValue	= change the TEXT color

@@ -1,0 +1,5 @@
+!-- JavaScript
+
+//Background color
+
+bg-#hexValue	= change the BACKGROUND color
