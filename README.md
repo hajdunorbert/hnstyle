@@ -2,20 +2,21 @@
 
 ### HTML Structure:
 
-&lt;div class="card"&gt;<br>
-    &lt;div class="card-image"&gt;<br>
-        &lt;img src="..."&gt;<br>
-    &lt;/div&gt;<br>
-    &lt;div class="card-title"&gt;<br>
-        ...<br>
-    &lt;/div&gt;<br>
-    &lt;div class="card-body"&gt;<br>
-        ...<br>
-    &lt;/div&gt;<br>
-    &lt;div class="card-footer"&gt;<br>
-        ...<br>
-    &lt;/div&gt;<br>
-&lt;/div&gt;<br>
+```html
+<div class="card">
+    <div class="card-image">
+        <img src="...">
+    </div>
+    <div class="card-title">
+        ...
+    </div>
+    <div class="card-body">
+        ...
+    </div>
+    <div class="card-footer">
+        ...
+    </div>
+</div>
 
 ### Styles:
 
