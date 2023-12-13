@@ -1,66 +1,51 @@
-## Card Component
+# HNStyle: Your CSS Utility Library
 
-### HTML Structure:
+HNStyle is a lightweight CSS utility library designed to simplify and streamline your web development workflow. Whether you're a seasoned developer or just getting started, HNStyle provides a set of easy-to-use classes and components to enhance the styling of your projects.
+
+## Features
+
+- **Global Styles**: Quickly apply global styles such as flex containers, grid layouts, margins, paddings, and more.
+
+- **Navigation Bar Customization**: Customize your navigation bar effortlessly with predefined background color classes.
+
+- **Text Color Options**: Easily manage text colors with predefined classes for various scenarios.
+
+- **Card Component**: Use the versatile card component with customizable title, body, footer, and image sizes.
+
+- **Responsive Grid System**: Create responsive layouts with our flexible grid system, making it easy to create dynamic designs for any screen size.
+
+## Getting Started
+
+### Installation
+
+You can include HNStyle in your project by linking the CSS files in the head of your HTML file:
 
 ```html
-<div class="card">
-    <div class="card-image">
-        <img src="...">
-    </div>
-    <div class="card-title">
-        ...
-    </div>
-    <div class="card-body">
-        ...
-    </div>
-    <div class="card-footer">
-        ...
-    </div>
-</div>
-
+<!-- Link to HNStyle CSS files -->
+<link rel="stylesheet" href="path/to/hnstyle.css" />
 ```
 
-### Styles:
+```html
+Alternatively, you can use our CDN:
 
-#### `.card`
-- Styles for the card container.
-  - `border-radius: 8px;`
-  - `overflow: hidden;`
-  - `box-shadow: 0 4px 8px #000;`
-  - `border: 1px solid black;`
+<!-- Link to HNStyle from CDN -->
+<link rel="stylesheet" href="https://cdn.example.com/hnstyle.css" />
+```
 
-#### `.card-image img`
-- Styles for the image inside the card.
-  - `width: 100%;`
-  - `object-fit: cover;`
+## Usage
 
-#### `.card-title`
-- Styles for the card title.
-  - `padding: 10px;`
-  - `font-weight: 600;`
+HNStyle follows a simple naming convention for classes. Check the [documentation](documentation.md) for detailed information on available classes and their usage.
 
-#### `.card-body`
-- Styles for the card body.
-  - `padding: 10px;`
+## Documentation
 
-#### `.card-footer`
-- Styles for the card footer.
-  - `padding: 10px;`
+Explore the [documentation](documentation.md) to understand how to use HNStyle effectively. The documentation provides clear explanations, examples, and usage tips.
 
-#### `.card-ns` (Optional)
-- Style to remove box shadow from the card.
-  - `box-shadow: none;`
+## Contributing
 
-#### `.card-nb` (Optional)
-- Style to remove border from the card.
-  - `border: 0;`
+Contributions are welcome! Feel free to submit issues, feature requests, or pull requests. Please follow our [contribution guidelines](CONTRIBUTING.md).
 
-### Usage Tips:
+## License
 
-- The `border-radius: 8px;` gives a rounded corner appearance to the card.
-- `box-shadow: 0 4px 8px #000;` adds a subtle shadow for depth.
-- Adjust the `width: 100%;` and `object-fit: cover;` to control the image inside the card.
-- Customize the `font-weight` and `padding` for the title, body, and footer based on your design preferences.
-- `.card-ns` and `.card-nb` classes are optional and can be used to remove the box shadow or border if needed.
+HNStyle is open-source and licensed under the [MIT License](LICENSE).
 
-## Card Component END
+Happy coding with HNStyle!
