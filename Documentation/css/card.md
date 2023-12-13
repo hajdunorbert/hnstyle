@@ -4,25 +4,19 @@
 
 ```html
 <div class="card">
-    <div class="card-image">
-        <img src="...">
-    </div>
-    <div class="card-title">
-        ...
-    </div>
-    <div class="card-body">
-        ...
-    </div>
-    <div class="card-footer">
-        ...
-    </div>
+  <div class="card-image">
+    <img src="..." />
+  </div>
+  <div class="card-title">...</div>
+  <div class="card-body">...</div>
+  <div class="card-footer">...</div>
 </div>
-
 ```
 
 ### Styles:
 
 #### `.card`
+
 - Styles for the card container.
   - `border-radius: 8px;`
   - `overflow: hidden;`
@@ -30,30 +24,42 @@
   - `border: 1px solid black;`
 
 #### `.card-image img`
+
 - Styles for the image inside the card.
   - `width: 100%;`
   - `object-fit: cover;`
 
 #### `.card-title`
+
 - Styles for the card title.
   - `padding: 10px;`
   - `font-weight: 600;`
 
 #### `.card-body`
+
 - Styles for the card body.
   - `padding: 10px;`
 
 #### `.card-footer`
+
 - Styles for the card footer.
   - `padding: 10px;`
 
 #### `.card-ns` (Optional)
+
 - Style to remove box shadow from the card.
   - `box-shadow: none;`
 
 #### `.card-nb` (Optional)
+
 - Style to remove border from the card.
   - `border: 0;`
+
+#### Image Size Classes:
+
+- .card-si: Sets the image height to 200px.
+- .card-mi: Sets the image height to 300px.
+- .card-li: Sets the image height to 400px.
 
 ### Usage Tips:
 

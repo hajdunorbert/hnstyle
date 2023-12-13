@@ -2,12 +2,12 @@
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 4px 8px #000;
-    border: 1px solid black;
 }
 
 .card-image img{
     width: 100%;
     object-fit: cover;
+    height: 300px;
 }
 
 .card-title {
@@ -29,4 +29,16 @@
 
 .card-nb {
     border: 0;
+}
+
+.card-si {
+    height: 200px;
+}
+
+.card-mi {
+    height: 300px;
+}
+
+.card-li {
+    height: 400px;
 }
